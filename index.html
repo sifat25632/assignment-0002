@@ -4,20 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>healthy instraction</title>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <header>
+    <script src="https://kit.fontawesome.com/ae6a8c8e73.js" crossorigin="anonymous"></script>
+    
 
+    <!--font link -sora-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<!--tailwind and daisyui link-->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="font-sora">
+    <header class=" bg-gradient-to-t from-orange-100 to-white">
+
+        <!--nav section-->
+        <nav class="h-20 px-10 border-b-[#179800] border-2  lg:border-hidden mb-16">
+            <div class="pt-3  navbar mx-w-[1320] mx-auto">
+                <div class="navbar-start"><img class="mr-3" src="c2-assets/logo-header.png" alt="">
+                </div>
+
+                <div class=" navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal font-semibold px-1 text-[#111111]">
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class=" navbar-end space-x-5 hidden lg:flex">
+
+                    <span><i class="fa-solid fa-magnifying-glass"></i> </span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a class="border border-[#179800] font-semibold px-5 py-2 rounded-lg " href="">Login</a>
+                    <a class="bg-[#179800] font-semibold px-5 py-2 rounded-lg hover:bg-[#111111] hover:text-white" href="">Register</a>
+                </div>
+                <div class="dropdown flex navbar-end lg:hidden">
+                    <div tabindex="0" role="button" class="btn btn-gost">
+                       <svg
+                       xmlns="http://www.w3.orge/2000/svg"
+                       class="h-5 w-5"
+                       fill="none"
+                       viewBox="0 0 24 24"
+                       stroke="currentcolor">
+                       <path
+                       strok-linecap="round"
+                       strok-linejoin="round"
+                       strok-width="2"
+                       d="M4 6h16" />
+                    </svg>
+
+
+
+                    </div>
+
+                    <ul 
+                    tabindex="0"
+                    class="menu menu-sm dropdown-contact bg-base-100 rounded-box z-[1] mt-3 w52 p-2 shadow">
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+       <!--hero section-->
+
+       <section class="max-w-full mb-9 w-full mx-auto text-center px-10 xm:px-6  ">
+        
+            <h1 class="text-5xl text-[#111111] text-center items-center justify-center">Freshness <span class="text-[#179800]">You Can<br>
+                Count</span> On, Prices You’ll Love!</h1>
+        
+                
+                    <small class="text-base sm:text-xl lg:text-xl mt-4 animate-fade-up p-10" >Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!Shop your daily essentials at unbeatable prices.</small>
+                
+                <div>
+                    <img class="items-center justify-center text-center p-10" src="c2-assets/hero-vegetables.png" alt="">
+                </div>
+        
+       </section>
     </header>
     <main>
 
-    </main>
-    <footer>
+        <h3 class="font-semibold text-3xl text-[#179800] pl-16">Services</h3>
+        <section class="bg-whit w-full px-10 mt-16 mb-16 text-center">
+           
 
-    </footer>
+            <!--cards-->
+
+            <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-3 sm:space-y-3 sm:grid-rows-1 sm:grid-cols-1 lg:grid-cols-3 items-center justify-center  ">
+                <div class="flex space-x-3   sm:space-y-5 lg:flex ">
+                    <div class="card w-96 bg-base-100  bg-[#EFEBE3] space-y-4 p-6">
+                        <figure class="px-10 pt-10">
+                          <img src="c2-assets/service.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">24/7 Services </h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
+                  
+                     </div>
+                </div>
+                <div class="flex space-x-3   sm:space-y-5 lg:flex ">
+                    <div class="card w-96 bg-base-100  bg-[#EFEBE3] space-y-4 p-6">
+                        <figure class="px-10 pt-10">
+                          <img src="c2-assets/delivery.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">24/7 Services </h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
+                  
+                     </div>
+                </div>
+                <div class="flex space-x-3   sm:space-y-5 lg:flex ">
+                    <div class="card w-96 bg-base-100  bg-[#EFEBE3] space-y-4 p-6">
+                        <figure class="px-10 pt-10">
+                          <img src="c2-assets/healthy.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">24/7 Services </h2>
+                          <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
+                  
+                     </div>
+                </div>
+            </div>
+
+        </section>
+
+        <h3 class="font-semibold text-3xl text-[#179800] pl-16">Popular Products</h3>
+
+        
+
+        <!--araibval-->
+
+        <div class="p-28 flex-1 ">
+
+            <h2 class="font-semibold text-3xl text-[#115414] pl-10">Arrival & Offers</h2>
+           
+                <div class="grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 sm:gap-3 p-10 gap-3">
+
+                    <div class="bg-[#115414] rounded-lg flex">
+
+                        <div><img src="c2-assets/dawat-logo.png" alt="">
+                            <button class="bg-[#63B76D] ml-6  px-8 py-2 rounded-lg mt-5 text-white">Cook Exotic Dishes</button>
+                            <h1 class="text-white font-thin px-8 py-2">UP to <span class="font-bold">20% OFF</span></h1>
+                        </div>
+                    
+                    <div>
+                    <img src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="bg-[#102861] rounded-lg   flex">
+                    <div >
+                        <img src="c2-assets/india-gate-logo.png" alt="">
+                        <button class="bg-[#2A4D97] ml-6  py-2 px-8 rounded-lg mt-5 text-white">World’s No.1 Rice</button>
+                        <h1 class="text-white font-thin px-8 py-2">UP to <span class="font-bold">40% OFF</span></h1>
+                    </div>
+                    <div>
+                    <img  src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+                </div>
+           
+
+        </div>
+
+    </main>
+    <footer class="footer p-28 bg-green-700 text-base-content text-white  items-center ">
+        <nav>
+          <header class="pr-10">
+            <img class="text-white" src="c2-assets/logo-footer.png" alt="">
+            <p class="h-10 w-64">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+          </header> 
+          
+        </nav> 
+        <div class="navbar-center ">
+            <ul class="space-y-10s">
+                
+               <li>Product</li><br>
+               <li>Services</li><br>
+               <li>Contact us</li>
+            </ul>
+
+        </div>
+        <nav>
+          <header class="footer-title">Follow Us</header> 
+          <div class="grid grid-flow-col gap-4">
+            <i class="fa-brands fa-facebook "></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </nav>
+      </footer>
     
 </body>
 </html>
